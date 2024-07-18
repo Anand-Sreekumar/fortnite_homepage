@@ -1,0 +1,153 @@
+h1 {
+  font-family: "Roboto";
+  font-size: 43px;
+  font-weight: 200;
+  line-height: 48px;
+  letter-spacing: 0.96px;
+}
+.subheading {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.visitBTN {
+  width: 13%;
+  height: 60px;
+  border-color: unset;
+  background-color: white;
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.96px;
+  color: black;
+  text-align: center;
+  border-radius: unset;
+}
+h2 {
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 42px;
+  line-height: 48px;
+}
+.subhead2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+h3 {
+  font-weight: 100;
+  font-size: 80px;
+  line-height: 17px;
+  text-transform: capitalize;
+}
+.subhead3 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+}
+h4 {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 48px;
+  letter-spacing: 4px;
+}
+.subhead4 {
+  font-family: "Roboto";
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-size: 20px;
+  line-height: 25px;
+}
+.SIgnupBtn {
+  background-color: black;
+  color: white;
+  width: 23%;
+  margin-right: 5%;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid white;
+  border-radius: unset;
+  padding: 10px 20px;
+  text-align: center;
+}
+.ContactBTN {
+  background-color: white;
+  color: black;
+  width: 23%;
+  font-family: "Poppins, sans-serif";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+  border-radius: unset;
+  border-color: unset;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .SIgnupBtn,
+  .ContactBTN,
+  img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .visitBTN {
+    width: 50%;
+  }
+  .header .subheading {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .header .visitBTN {
+    font-size: 14px;
+  }
+
+  .container h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .container .subhead2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .container .subhead3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .container h3 {
+    font-size: 50px;
+  }
+
+  .container h4 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .container .subhead4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

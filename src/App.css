@@ -8,22 +8,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-.text-center h1 {
-  font-family: Roboto ", sans-serif";
-  font-size: 38px;
-  font-weight: 100;
-  line-height: 48px;
-  letter-spacing: 0.9599999785423279px;
-  text-align: center;
-  color: #ffffff;
-}
-.text-center p {
-  color: white;
-}
-.text-center button {
-  background-color: white;
-  color: black;
-}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -40,9 +25,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.head {
-  color: white;
-}
+
 .App-link {
   color: #61dafb;
 }
